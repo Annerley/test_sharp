@@ -13,6 +13,9 @@ namespace test_sharp
                 NumberDecimalSeparator = ".",
             };
 
+
+
+            int b;
             double a = Convert.ToDouble(data, numberFormatInfo);
             Console.WriteLine(a);
            }
